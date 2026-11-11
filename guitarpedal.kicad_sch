@@ -415,166 +415,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -2446,16 +2286,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.69) (xy 41.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1573de4e-1abb-4bee-be0e-ab486572b19a")
-	)
-	(wire
-		(pts
 			(xy 53.34 109.22) (xy 53.34 110.49)
 		)
 		(stroke
@@ -2496,16 +2326,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 64.77) (xy 31.75 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d00f0e-fc9d-4a8d-b8d6-0ce9de7d9bee")
-	)
-	(wire
-		(pts
 			(xy 154.94 71.12) (xy 156.21 71.12)
 		)
 		(stroke
@@ -2536,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 90.17) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7e76f7-54d7-472d-b491-0f9dd48f536d")
+	)
+	(wire
+		(pts
 			(xy 71.12 62.23) (xy 74.93 62.23)
 		)
 		(stroke
@@ -2553,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "3fb88a2f-918d-461f-a122-2d993b69226f")
+	)
+	(wire
+		(pts
+			(xy 29.21 59.69) (xy 41.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe29231-0680-4215-934f-14e5754e2c55")
 	)
 	(wire
 		(pts
@@ -2636,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 62.23) (xy 30.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa615ae-39ac-4e84-9264-f84e7810350f")
-	)
-	(wire
-		(pts
 			(xy 153.67 105.41) (xy 153.67 107.95)
 		)
 		(stroke
@@ -2686,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 162.56 86.36)
+			(xy 162.56 86.36) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2813,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "7b47f6a0-8f9e-43d1-8504-acabe31e4e23")
+	)
+	(wire
+		(pts
+			(xy 31.75 54.61) (xy 29.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c692b0f-ffa2-4425-a8f1-acc3e69bf24b")
 	)
 	(wire
 		(pts
@@ -2966,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 154.94 88.9)
+			(xy 154.94 88.9) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2983,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "a1b59dea-7763-4fbd-9c03-9221818bb799")
+	)
+	(wire
+		(pts
+			(xy 31.75 52.07) (xy 31.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a705f56c-01f4-4ed8-8e6c-78d9163741a5")
 	)
 	(wire
 		(pts
@@ -3093,6 +2943,16 @@
 			(type default)
 		)
 		(uuid "cbafb9be-f319-48fd-9508-1793eda17f2d")
+	)
+	(wire
+		(pts
+			(xy 176.53 90.17) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce592c17-b47f-4919-8542-7875defdfff0")
 	)
 	(wire
 		(pts
@@ -3359,6 +3219,74 @@
 			(project ""
 				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 21.59 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04812511-dce8-4394-88e0-4f09b9444858")
+		(property "Reference" "J2"
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 22.86 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 21.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a1922e4-6308-437f-b6fa-e1fd9e52c261")
+		)
+		(pin "2"
+			(uuid "1adbd3f6-1f83-4fd3-a676-ac2c5a7c4959")
+		)
+		(instances
+			(project ""
+				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4059,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "J201:TRANS_J201"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -4758,6 +4686,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 173.99 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7d1e48-5ed0-492a-a9e7-d8b365c648f8")
+		(property "Reference" "J3"
+			(at 179.07 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 179.07 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 175.006 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.006 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f39b4378-3868-4656-8fd9-3fedadc2dd44")
+		)
+		(pin "2"
+			(uuid "6763a6f7-0545-4f5f-977b-0108baa128cf")
+		)
+		(instances
+			(project "guitarpedal"
+				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 111.76 62.23 90)
 		(unit 1)
@@ -4916,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 31.75 64.77 0)
+		(at 31.75 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4925,7 +4923,7 @@
 		(fields_autoplaced yes)
 		(uuid "6556037a-cf04-466c-83ea-9e889b61f5ff")
 		(property "Reference" "#PWR018"
-			(at 31.75 71.12 0)
+			(at 31.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4932,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 31.75 69.85 0)
+			(at 31.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 64.77 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 64.77 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 31.75 64.77 0)
+			(at 31.75 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,74 +5716,6 @@
 			(project "guitarpedal"
 				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 25.4 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bddc5f3-b711-451b-bbab-10c3c571295c")
-		(property "Reference" "J2"
-			(at 26.035 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 26.035 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 25.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 25.4 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9eca80d-7db8-4a60-87fc-d5095b4c27d5")
-		)
-		(pin "2"
-			(uuid "62c871b5-115a-48e5-adbf-3ab08c0e7da4")
-		)
-		(instances
-			(project ""
-				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -6965,76 +6895,6 @@
 			(project "guitarpedal"
 				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 171.45 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f401ea85-3237-424d-ad04-bd9d75ff0d08")
-		(property "Reference" "J3"
-			(at 172.72 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 172.72 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 171.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 171.45 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6572d7b2-d1d8-4ff9-ba49-2abc25068111")
-		)
-		(pin "2"
-			(uuid "bcc2feb1-53d1-4aa4-ab00-06b89cb34119")
-		)
-		(instances
-			(project ""
-				(path "/9b4886e4-3aaf-42d7-ab37-6a08e465cc85"
-					(reference "J3")
 					(unit 1)
 				)
 			)
